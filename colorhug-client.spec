@@ -15,6 +15,7 @@ BuildRequires: libgusb-devel >= 0.1.2
 BuildRequires: colord-devel >= 0.1.15
 BuildRequires: lcms2-devel
 BuildRequires: libsoup-devel
+BuildRequires: docbook-utils
 BuildRequires: docbook-to-man
 
 %description
