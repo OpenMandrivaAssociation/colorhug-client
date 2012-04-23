@@ -4,7 +4,7 @@
 
 Summary:   Tools for the Hughski Colorimeter
 Name:      colorhug-client
-Version:   0.1.7
+Version:   0.1.8
 Release:   1
 License:   GPLv2+
 Group:     Graphics
@@ -50,8 +50,8 @@ This package contains development files for colorhug-client.
 
 %prep
 %setup -q
-%patch0 -p1
-autoreconf
+#patch0 -p1
+#autoreconf
 
 %build
 %configure --disable-static
