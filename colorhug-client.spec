@@ -23,6 +23,7 @@ BuildRequires: libsoup-devel
 BuildRequires: docbook-utils
 BuildRequires: docbook-to-man
 BuildRequires: gobject-introspection-devel
+BuildRequires: pkgconfig(libcanberra-gtk3)
 
 %description
 The Hughski ColorHug colorimeter is a low cost open-source hardware
