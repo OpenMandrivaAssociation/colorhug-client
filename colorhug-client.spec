@@ -4,7 +4,7 @@
 
 Summary:   Tools for the Hughski Colorimeter
 Name:      colorhug-client
-Version:   0.1.8
+Version:   0.1.12
 Release:   1
 License:   GPLv2+
 Group:     Graphics
@@ -24,6 +24,7 @@ BuildRequires: docbook-utils
 BuildRequires: docbook-to-man
 BuildRequires: gobject-introspection-devel
 BuildRequires: pkgconfig(libcanberra-gtk3)
+BuildRequires: pkgconfig(colord-gtk)
 
 %description
 The Hughski ColorHug colorimeter is a low cost open-source hardware
