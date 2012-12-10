@@ -4,7 +4,7 @@
 
 Summary:   Tools for the Hughski Colorimeter
 Name:      colorhug-client
-Version:   0.1.12
+Version:   0.1.8
 Release:   1
 License:   GPLv2+
 Group:     Graphics
@@ -24,7 +24,6 @@ BuildRequires: docbook-utils
 BuildRequires: docbook-to-man
 BuildRequires: gobject-introspection-devel
 BuildRequires: pkgconfig(libcanberra-gtk3)
-BuildRequires: pkgconfig(colord-gtk)
 
 %description
 The Hughski ColorHug colorimeter is a low cost open-source hardware
@@ -87,3 +86,19 @@ This package contains development files for colorhug-client.
 %{_libdir}/libcolorhug.so
 %{_libdir}/pkgconfig/colorhug.pc
 %{_datadir}/gir-1.0/ColorHug-1.0.gir
+
+
+%changelog
+* Mon Apr 23 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.1.8-1
++ Revision: 792806
+- update to 0.1.8
+
+* Tue Mar 27 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.1.7-1
++ Revision: 787526
+- update to 0.1.7
+
+* Mon Dec 26 2011 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.1.2-1
++ Revision: 745446
+- added BR docbook-utils
+- imported package colorhug-client
+
