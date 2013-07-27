@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   colorhug-client-0.1.14.tar.xz: 9bf16338a6b16a7f31b6feca91cadc0eac6f21b1
+sources:
+  colorhug-client-0.2.0.tar.xz: 04cc97302f3c3a4462028066d93d3cc78bb8f30d
