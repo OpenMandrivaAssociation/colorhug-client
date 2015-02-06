@@ -1,7 +1,7 @@
 Summary:	Tools for the Hughski Colorimeter
 Name:		colorhug-client
 Version:	0.2.1
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Graphics
 Url:		http://www.hughski.com/
