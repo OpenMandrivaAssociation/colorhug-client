@@ -4,7 +4,7 @@ Version:	0.2.1
 Release:	2
 License:	GPLv2+
 Group:		Graphics
-Url:		http://www.hughski.com/
+Url:		https://www.hughski.com/
 Source0:	http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.xz
 BuildRequires:	intltool
 BuildRequires:	itstool
